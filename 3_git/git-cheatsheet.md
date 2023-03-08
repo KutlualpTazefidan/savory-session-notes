@@ -47,7 +47,7 @@ git restore . or git restore filename // going back to the previous version
 
 ## Push / Pull / Clone
 ```
-git remote add origin git@github.com:GitHubUsername/reponame.git // use your PAT as password or use the other git remote command to automate
+git remote add origin git@github.com:GitHubUsername/reponame.git //  use the other git remote command above afther this to automate authentification
 git branch -M main 
 git push -u origin main
 
