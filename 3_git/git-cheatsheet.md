@@ -1,6 +1,7 @@
-# Git cheatsheet
+# Git cheatsheet and session notes
 
 ## configuration
+
 ```
 git config --global user.name = "Kutlualp Tazefidan"
 git config --global user.email = "email@example.com"
@@ -66,3 +67,4 @@ git switch branch-name
 pull request via github
 
 after the PR don't forget to update the main branch.
+git pull origin main
