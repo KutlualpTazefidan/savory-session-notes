@@ -8,6 +8,7 @@ git config --global user.name // for checking your username
 ````
 
 ### generating ssh key
+
 ```
 ssh-keygen -t ed25519 -C "e@email.com"
 eval "$(ssh-agent -s)"
@@ -18,14 +19,14 @@ cat */.ssh/id_ed25519.pub // print your public key and the ssh key to github
 for testing
 ```
 ssh -T git@github.com // if fingerprint is right; choose yes; get success message
-
 ````
-### generating personal access token
+
+### generating personal access token (PAT)
 PAT is required to establish the connection.
 settings -> develeper settings -> Personal acess token (classic) -> new Token -> save the token somewhere.
 
 ### authentification failed message after push
-You cannot use your password; Instead you have to use your PAT.
+You cannot use your password; instead you have to use your PAT.
 To automate the authentification:
 ```
 git remote set-url origin https://<githubtoken>@github.com/<username>/<repositoryname>.git
@@ -56,3 +57,12 @@ git clone url // use the ssh url
 ## notes
 
 .gitignore to specify some files to be never pushed
+
+## branches
+
+git branch branch-name
+git switch branch-name
+
+pull request via github
+
+after the PR don't forget to update the main branch.
