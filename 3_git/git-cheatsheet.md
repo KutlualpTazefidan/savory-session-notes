@@ -66,3 +66,4 @@ git switch branch-name
 pull request via github
 
 after the PR don't forget to update the main branch.
+git pull origin main
