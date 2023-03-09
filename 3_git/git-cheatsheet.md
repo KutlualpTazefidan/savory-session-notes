@@ -1,6 +1,7 @@
-# Git cheatsheet
+# Git cheatsheet and session notes
 
 ## configuration
+
 ```
 git config --global user.name = "Kutlualp Tazefidan"
 git config --global user.email = "email@example.com"
