@@ -9,3 +9,5 @@
   - git config --global user.email ktazefidan@hotmail.com
   - ssh-keygen -t ed25519 -C "YOUR_EMAIL@example.com"
 
+- to update node version follow this page:
+https://learn.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-wsl
