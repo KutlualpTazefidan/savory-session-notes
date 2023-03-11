@@ -11,3 +11,16 @@
 
 - to update node version follow this page:
 https://learn.microsoft.com/en-us/windows/dev-environment/javascript/nodejs-on-wsl
+
+vscode settings:
+Open Visual Studio Code
+Open the Extensions Panel (⇧⌘X)
+Install the following extensions
+Auto Rename Tag
+Live Preview
+Prettier - Code formatter
+ESLint
+Open the Visual Studio Code settings (⌘,)
+Search for "Default Formatter" and set to "Prettier - Code formatter"
+Search for "Format On Save" and check the checkbox
+💡 This will set up Visual Studio Code to automatically format your code on save using Prettier.
