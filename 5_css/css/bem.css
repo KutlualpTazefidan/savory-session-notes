@@ -1,0 +1,42 @@
+/* Organizing CSS using the BEM method for a maintainable code
+- dividing into smaller pieces and reusing it
+https://gist.github.com/bigsergey/a49caf3ca08feec42cf8
+
+block
+block__element
+block--modifier-value?!
+
+the class names have to chosen accordingly
+
+&& 
+
+defining variables
+
+*/
+
+@import './variable.css';
+
+* {
+    box-sizing: border-box;
+    font-family: var(--font-family);
+}
+
+.card {
+    margin: 20px auto;
+    padding: 30px;
+    border: 2px solid var(--main-color);
+}
+
+.card__title {
+    font-weight: lighter;
+    margin-bottom: 10px;
+    color: var(--main-color);
+}
+
+.card--primary-color {
+    border-color: var(--primary-color);
+}
+
+.card--secondary-color {
+    border-color: var(--secondary-color);
+}

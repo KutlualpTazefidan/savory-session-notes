@@ -99,3 +99,7 @@ gh repo create --source=. --public --remote=main --push // to skip prompts
 
 to use gh you have to install git cli following this:
 https://github.com/cli/cli/blob/trunk/docs/install_linux.md
+
+## Deleting the branch
+
+`$ git branch -D <local-branch>`

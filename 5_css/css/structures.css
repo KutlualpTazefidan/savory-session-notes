@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+    color: crimson;
+}
+
+/* ----------------------------
+        CSS Cascade
+-----------------------------*/
+/* Top to bottom */
+/* Priority list:
+    - id
+    - class
+    - 
+    - asterix
+*/
+
+p {
+    color: aqua;
+    font-size: 10px;
+}

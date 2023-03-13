@@ -1,0 +1,10 @@
+.header__heading {
+    margin: 0;
+}
+
+.disclaimer {
+    margin: 20px 5%;
+    margin-top: 150px;
+    border: 2px solid #000;
+    padding: 1em;
+}
