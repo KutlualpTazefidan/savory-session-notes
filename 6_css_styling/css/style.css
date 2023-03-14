@@ -1,0 +1,13 @@
+body {
+    display: flex;
+}
+
+li {
+    border: 2px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
