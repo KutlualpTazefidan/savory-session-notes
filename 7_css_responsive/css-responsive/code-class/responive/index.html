@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Web responsive</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <ul>
+            <li>Item A</li>
+            <li>Item B</li>
+            <li>
+                Item C
+                <ul>
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                    <li>Item 4</li>
+                </ul>
+            </li>
+            <li>Item D</li>
+            <li>Item E</li>
+        </ul>
+
+        <div class="square-big">
+            <div class="square-small"></div>
+        </div>
+
+        <section>
+            <picture>
+                <source
+                    media="(min-width:1200px)"
+                    srcset="./public/Perro.png"
+                />
+                <source
+                    media="(min-width: 900px)"
+                    srcset="./public/Zorro.png"
+                />
+
+                <img src="./public/Elefante.png" alt="elefante" />
+            </picture>
+        </section>
+    </body>
+</html>

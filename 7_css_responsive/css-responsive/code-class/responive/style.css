@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    font-size: 2rem;
+}
+
+li {
+    font-size: 1rem;
+}
+
+.square-big {
+    width: 40%;
+    height: 50vh;
+    background-color: rebeccapurple;
+}
+
+.square-small {
+    width: 15%;
+    height: 40%;
+    background-color: green;
+}
+
+img {
+    width: 100vw;
+}
