@@ -56,6 +56,7 @@ git restore . or git restore filename // going back to the previous version
 
 ```
 git remote add origin git@github.com:GitHubUsername/reponame.git //  use the other git remote command above afther this to automate authentification
+git remote set-url origin https://<githubtoken>@github.com/<username>/<repositoryname>.git
 git branch -M main
 git push -u origin main
 
@@ -90,4 +91,13 @@ https://github.com/cli/cli/blob/trunk/docs/install_linux.md
 
 ## Deleting the branch
 
-`$ git branch -D <local-branch>`
+```
+$ git branch -d <local-branch>
+$ git branch -D <local-branch>
+```
+
+## Update remote branch list
+
+```
+git remote update origin --prune
+```
