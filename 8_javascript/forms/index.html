@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Party Picker</title>
+  </head>
+  <body>
+    <h1 id="title">Party Picker</h1>
+    <p id="describtion">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+      temporibus blanditiis voluptatem eligendi. Optio quas veniam a veritatis
+      rem magnam assumenda natus fugiat? Sunt suscipit, est assumenda vel nam
+      laudantium.
+    </p>
+    <form aria-labelledby="title">
+      <fieldset>
+        <legend>Enter your information</legend>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" placeholder="Name" />
+
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Email@email.com"
+        />
+        <label for="pass">Password</label>
+        <input type="password" name="pass" id="pass" />
+        <div>
+          <label for="select-guests">Who are you coming with?</label>
+          <select name="friends-to-join" id="select-guests">
+            <option value="">Please select name</option>
+            <option value="alone">I come alone</option>
+            <option value="plus one">+1</option>
+            <option value="not coming">X</option>
+          </select>
+        </div>
+      </fieldset>
+      <fieldset>
+        <label for="drinks">Drinks</label>
+        <input type="radio" name="item" id="drinks" value="drinks" checked />
+        <label for="food">Food</label>
+        <input type="radio" name="item" id="food" value="food" />
+        <label for="sweet">Sweets</label>
+        <input type="radio" name="item" id="sweet" value="sweet" />
+
+        <div>
+          <label for="date">When are you coming?</label>
+          <input type="date" name="data" id="date" />
+        </div>
+
+        <div>
+          <label for="color">Colors?</label>
+          <input type="color" name="color" id="color" />
+        </div>
+
+        <div>
+          <label for="pizza-choice">Choose your pizza</label>
+          <input list="pizzas" id="pizza-choice" />
+          <datalist id="pizzas">
+            <option value="Marge"></option>
+            <option value="henl"></option>
+            <option value="asd"></option>
+            <option value="asge"></option>
+            <option value="Madw"></option>
+          </datalist>
+        </div>
+      </fieldset>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
