@@ -13,7 +13,8 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes
 1. Defition of a prototype
 2. Definition of a class
 3. Structure of a class
-4. Excercises
+4. Exporting classes
+5. Excercises
 
 ---
 
@@ -57,3 +58,9 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes
     }
    }
    ```
+
+4. Exporting classes
+   - src: https://www.youtube.com/watch?v=cRHQNNcYf6s&ab_channel=WebDevSimplified
+   - At the beginning of the class you put `export default MyClass {...}`
+   - If functions or other has to be exported, you put `export` before it declaration, i.e. `export `
+   - in HTML put `<script type=module ...>` conveys that we are using moduls, and uses `defer` attribute automatically

@@ -101,3 +101,12 @@ $ git branch -D <local-branch>
 ```
 git remote update origin --prune
 ```
+
+## Rename a local and remote branch
+
+change to the main branch
+
+```
+git branch -m oldName newName
+git push origin :oldName newName
+```
